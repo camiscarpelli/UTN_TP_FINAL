@@ -4,7 +4,7 @@ import { GiDrippingSword } from "react-icons/gi";
 const ICONS = {
     Backpack: BsBackpack2,
     Bank: BsBank,
-    Sword: GiDrippingSword
+    Sword: GiDrippingSword,
 }
 
 export default ICONS
