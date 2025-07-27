@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './NewMessageForm.css'
+import { ContactContext } from '../../Context/ContactContext'
 
-const NewMessageForm = ({addNewMessage}) => {
+const NewMessageForm = () => {
+
+    const {addNewMessage} = useContext(ContactContext)
+    
     const handleSubmitSendMessageForm = (event) => {
         event.preventDefault()
         let new_message_text = event.target.message.value
@@ -10,6 +14,8 @@ const NewMessageForm = ({addNewMessage}) => {
         //Reseteamos el campo
         event.target.message.value = ''
     }
+
+    
 
     return (
         <form onSubmit={handleSubmitSendMessageForm}>
@@ -22,4 +28,4 @@ const NewMessageForm = ({addNewMessage}) => {
     )
 }
 
-export default NewMessageForm
+export {NewMessageForm}

@@ -1,13 +1,25 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import ContactList from '../../Components/ContactList/ContactList';
 import { getContactList } from '../../services/contactService';
+import { ContactContext } from '../../Context/ContactContext';
+import ReactSVG from '../../assets/react.svg'
+import { GiSwordAltar } from "react-icons/gi";
+import ICONS from '../../constants/Icons';
+
+
 
 const ContactScreen = () => {
     const contacts = getContactList()
     const [contactsState, setContactsState] = useState(contacts);
-
+    const valor = useContext(ContactContext)
+	console.log('Este es el valor de mi contexto', valor)
     return (
         <div>
+            <img src='/images/auto-rojo-2.jpg' width={100}/>
+            <img src={ReactSVG} width={100}/>
+
+            <h1>Mis contactos: <ICONS.Sword className='espada'/></h1>
+
             <ContactList contacts={contactsState} />
         </div>
     );
