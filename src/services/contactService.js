@@ -3,7 +3,7 @@ const contacts = [
         id: 1,
         name: 'Pepe',
         description: 'Solo vives una vez, pero no te olvides de mi',
-        avatar: '/images/auto-rojo-2.jpg',
+        avatar: 'https://nupciasmagazine.com/wp-content/uploads/2024/07/la-pantera-rosa-celebra-60-anos.jpg',
         lastConnection: '15:23',
         connectionStatus: 'offline',
         messages: [

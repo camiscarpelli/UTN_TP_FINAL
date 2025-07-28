@@ -15,7 +15,7 @@ const ContactScreen = () => {
 	console.log('Este es el valor de mi contexto', valor)
     return (
         <div>
-            <img src='/images/auto-rojo-2.jpg' width={100}/>
+            <img src='/images/auto_img.jpeg' width={100}/>
             <img src={ReactSVG} width={100}/>
 
             <h1>Mis contactos: <ICONS.Sword className='espada'/></h1>
