@@ -5,12 +5,10 @@ import ContactScreen from './Screens/ContactScreen/ContactScreen'
 import ContactContextProvider, { ContactContext } from './Context/ContactContext'
 import { AppThemeContext } from './Context/AppThemeContext'
 
+
 const App = () => {
-	const {app_theme, toggleAppTheme} = useContext(AppThemeContext)
-	console.log('La aplicacion esta en theme', app_theme)
 	return (
-		<div className={'background-' + app_theme}>
-			<button onClick={toggleAppTheme}>Cambiar de modo (modo actual: {app_theme})</button>
+		<div className='app-container'>
 			<Routes>
 				<Route
 					path='/'
@@ -39,5 +37,7 @@ const App = () => {
 		</div>
 	)
 }
+
+
 
 export default App

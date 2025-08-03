@@ -4,6 +4,7 @@ import { NewMessageForm } from '../../Components/NewMessageForm/NewMessageForm'
 import { useParams } from 'react-router'
 import { getContactById } from '../../services/contactService'
 import { ContactContext } from '../../Context/ContactContext'
+import './ChatScreen.css'
 
 
 const ChatScreen = () => {
@@ -33,7 +34,8 @@ const ChatScreen = () => {
 
 		</div>
 	)
-}
+} 
+
 
 
 
