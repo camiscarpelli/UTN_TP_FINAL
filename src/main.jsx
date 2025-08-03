@@ -6,7 +6,7 @@ import ContactContextProvider from './Context/ContactContext.jsx'
 import AppThemeContextProvider from './Context/AppThemeContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  /* Browser router es un componente que nos habilita a usar las herramientas de react-router */
+
   <BrowserRouter>
 <AppThemeContextProvider>
       <App />

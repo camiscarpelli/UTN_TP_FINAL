@@ -1,0 +1,104 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.message-screen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    margin-top: 8px;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.message-input-container{
+    color:#a8a8a8;
+    background-color: #252626;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 5px 11px 5px 11px;
+}
+
+.message-input-container input{
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    background-color: #252626;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5px 11px 5px 11px;
+    margin-left: 10px;
+    text-align: left;
+    color:#a8a8a8;
+}
+
+.message-send-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+}
+
+
+.message-send-button i{
+    color: #0a0a0a;
+    background-color: #6abd6f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.message-send-button button{
+    background-color: #6abd6f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.message-attachment-button button{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.message-attachment-button i{
+    color: #a8a8a8;
+}
+
+.message-emoji button{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.message-emoji i{
+    color: #a8a8a8;
+}

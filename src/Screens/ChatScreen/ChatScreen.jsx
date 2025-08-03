@@ -14,19 +14,38 @@ const ChatScreen = () => {
 
 	return (
 		<div>
-			<h1>Mensajes:</h1>
+
 			{
 				contact_info
 				?
 				(
-					<div>
+					<div className='chat-screen-container'>
 						{
 							contact_info.messages.length > 0
 							&&
-							<button onClick={deleteAllMessages}>Borrar todos los mensajes</button>
+							(
+								<div className='chat-header'>
+									<img src={contact_info.img}/>
+									<h1>{contact_info.name}</h1>
+
+								<div className='chat-connection'>
+									<h2>{contact_info.connectionStatus}</h2>
+								</div>
+
+								</div>
+
+							)
 						}
+						
 						<MessagesList />
+
+
 						<NewMessageForm/>
+
+						
+							<button className='delete-all-messages' onClick={deleteAllMessages}>
+							<i class="bi bi-trash"></i>
+							</button>
 					</div>
 				)
 				: <span>Cargando...</span>

@@ -6,7 +6,7 @@ const contacts = [
         img: '.././public/images/rihanna-contact.webp',
         lastConnection: '23:12 p. m.',
         lastMessage: 'Chau Cariño',
-        connectionStatus: 'offline',
+        connectionStatus: 'en línea',
         messages: [
             {
                 emisor: 'YO',
@@ -59,7 +59,7 @@ const contacts = [
         img: '.././public/images/britney-contact.webp',
         lastConnection: '23:12 p. m.',
         lastMessage: 'Chau mi amor!',
-        connectionStatus: 'online',
+        connectionStatus: 'en línea',
         unviewedMessages: 1,
         isPremium: true,
         messages: [
@@ -114,7 +114,7 @@ const contacts = [
         img: '/images/messi-img.jpeg',
         lastConnection: '23:13 p. m.',
         lastMessage: 'Gracias! Abrazo grande.',
-        connectionStatus: 'offline',
+        connectionStatus: 'Ultima vez 23:13 p. m.',
         messages: [
                 {
                 emisor: 'YO',
@@ -167,7 +167,7 @@ const contacts = [
         img: '.././public/images/moria-contact.jpeg',
         lastConnection: '23:14 p. m.',
         lastMessage: 'Chau mi amor!',
-        connectionStatus: 'offline',
+        connectionStatus: 'Ultima vez 23:14 p. m.',
         messages: [
             {
                 emisor: 'YO',
@@ -220,7 +220,7 @@ const contacts = [
         img: '/images/susana-img.jpeg',
         lastConnection: '23:12 p. m.',
         lastMessage: 'Chau!',
-        connectionStatus: 'offline',
+        connectionStatus: 'en línea',
         messages: [
             {
                 emisor: 'YO',

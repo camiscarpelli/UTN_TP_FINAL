@@ -35,12 +35,12 @@ const ContactScreen = () => {
             </div>
 
             <div class="search-bar">
-                <input type="text" placeholder="Buscar un chat o iniciar uno nuevo"/>
+                <input className='search-bar-input' type="text" placeholder="Buscar un chat o iniciar uno nuevo"/>
             </div>
 
             <div class="contact-items">
                 <button>Todos</button>
-                <button>No Leídos</button>
+                <button>No leídos</button>
                 <button>Favoritos</button>
                 <button>Grupos</button>
             </div>
