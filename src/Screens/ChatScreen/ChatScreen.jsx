@@ -25,12 +25,12 @@ const ChatScreen = () => {
 							&&
 							(
 								<div className='chat-header'>
-									<img src={contact_info.img}/>
+									{/* <img src={contact_info.img}/> */}
 									<h1>{contact_info.name}</h1>
 
-								<div className='chat-connection'>
+								{/* <div className='chat-connection'> */}
 									<h2>{contact_info.connectionStatus}</h2>
-								</div>
+								{/* </div> */}
 
 								</div>
 
@@ -42,18 +42,20 @@ const ChatScreen = () => {
 
 						<NewMessageForm/>
 
-						
-							<button className='delete-all-messages' onClick={deleteAllMessages}>
-							<i class="bi bi-trash"></i>
+						<div className='delete-all-messages'>
+							<button onClick={deleteAllMessages}>
+								<i class="bi bi-trash"></i>
 							</button>
+						</div>
 					</div>
 				)
-				: <span>Cargando...</span>
-			}
 
+: <span>Cargando...</span>
+	}
 		</div>
 	)
 } 
+
 
 
 

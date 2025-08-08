@@ -9,40 +9,43 @@
 }
 
 .chat-header{
-    padding: 8px;
-    margin-bottom: 8px;
-    align-items: center;
+    /* padding: 8px; */
+    /* margin-bottom: 8px; */
+    margin-top: 10px;
+    align-items: right;
+    margin-left: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.chat-header img{
+/* .chat-header img{
     display: flex;
     flex-direction: row;
     align-items: center;
     z-index: 1;
     height: 40px;
     width: 40px;
-}
+} */
 
 .chat-header h1{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
-    margin-bottom: 8px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: start;
-    z-index: 1;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 5px; 
+    /* padding-left: 10px;
+    padding-bottom: 10px; */
 }
 
-.chat-connection{
-    font-size: 12px;
+.chat-header h2{
+    font-size: 10px;
     font-weight: 600;
-    margin-bottom: 8px;
-    color:#252626;
+    margin-bottom: 10px;
+    color: #757575;
+    margin-left: 10px;
+}
+
+span{
+    color: white;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,3 +53,11 @@
     z-index: 1;
 }
 
+.delete-all-messages i{
+    color: red;
+}
+
+.delete-all-messages button{
+    border: none;
+    margin-left: 10px;
+};

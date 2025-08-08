@@ -1,117 +1,10 @@
+
 const contacts = [
-    {
-        id: 1,
-        name: 'Rihanna',
-        description: 'Diamons',
-        img: '.././public/images/rihanna-contact.webp',
-        lastConnection: '23:12 p. m.',
-        lastMessage: 'Chau Cariño',
-        connectionStatus: 'en línea',
-        messages: [
-            {
-                emisor: 'YO',
-                hora: '23:05',
-                id: 1,
-                texto: 'Hola Rihanna, ¿Cómo estás?',
-                status: 'visto'
-            },
-            {
-                emisor: 'OTRO',
-                hora: '23:06',
-                id: 2,
-                texto: 'Hola cariño! Muy bien, ¿y tú?',
-                status: 'visto'
-            },
-            {
-                emisor: 'YO',
-                hora: '23:08',
-                id: 3,
-                texto: 'Bien por suerte. ¿Qué haces?',
-                status: 'visto'
-            },
-            {
-                emisor: 'OTRO',
-                hora: '23:10',
-                id: 4,
-                texto: 'Ay, grabando todo el dia! Se vienen nuevas canciones!',
-                status: 'visto'
-            },            
-            {
-                emisor: 'YO',
-                hora: '23:11',
-                id: 5,
-                texto: 'Qué emoción! Te dejo. Chau Rihanna!',
-                status: 'visto'
-            },
-            {
-                emisor: 'OTRO',
-                hora: '23:12',
-                id: 6,
-                texto: 'Chau cariño',
-                status: 'visto'
-            }
-        ]
-    },
-    {
-        id: 2,
-        name: 'Britney Spears',
-        description: 'Upss, I did it again',
-        img: '.././public/images/britney-contact.webp',
-        lastConnection: '23:12 p. m.',
-        lastMessage: 'Chau mi amor!',
-        connectionStatus: 'en línea',
-        unviewedMessages: 1,
-        isPremium: true,
-        messages: [
-            {
-                emisor: 'YO',
-                hora: '23:05',
-                id: 1,
-                texto: 'Hola Britney, ¿Cómo estás?',
-                status: 'visto'
-            },
-            {
-                emisor: 'OTRO',
-                hora: '23:06',
-                id: 2,
-                texto: 'Hola, muy bien ¿vos?',
-                status: 'visto'
-            },
-            {
-                emisor: 'YO',
-                hora: '23:08',
-                id: 3,
-                texto: 'Bien por suerte. ¿Qué haces?',
-                status: 'visto'
-            },
-            {
-                emisor: 'OTRO',
-                hora: '23:10',
-                id: 4,
-                texto: 'Ay, bailando todo el dia!',
-                status: 'visto'
-            },            
-            {
-                emisor: 'YO',
-                hora: '23:11',
-                id: 5,
-                texto: 'Bueno, te dejo. Un beso enorme Britney!',
-                status: 'visto'
-            },
-            {
-                emisor: 'OTRO',
-                hora: '23:12',
-                id: 6,
-                texto: 'Chau mi amor!',
-                status: 'visto'
-            }
-        ]
-    },
         {
-        id: 3,
-        name: 'Lionel Messi',
+        id: 1,
+        name: 'Messi',
         description: 'Argentina Capeón',
-        img: '/images/messi-img.jpeg',
+        img: '.././src/images/messi-img.jpeg',
         lastConnection: '23:13 p. m.',
         lastMessage: 'Gracias! Abrazo grande.',
         connectionStatus: 'Ultima vez 23:13 p. m.',
@@ -161,10 +54,10 @@ const contacts = [
         ]
     },
     {
-        id: 4,
-        name: 'Moria Casán',
+        id: 2,
+        name: 'Moria',
         description: 'Quienes Son?',
-        img: '.././public/images/moria-contact.jpeg',
+        img: '.././src/images/moria-contact.jpeg',
         lastConnection: '23:14 p. m.',
         lastMessage: 'Chau mi amor!',
         connectionStatus: 'Ultima vez 23:14 p. m.',
@@ -214,10 +107,10 @@ const contacts = [
         ]
     },
     {
-        id: 5,
-        name: 'Susana Gimenéz',
+        id: 3,
+        name: 'La Su ',
         description: 'Ocupada',
-        img: '/images/susana-img.jpeg',
+        img: '.././src/images/susana-img.jpeg',
         lastConnection: '23:12 p. m.',
         lastMessage: 'Chau!',
         connectionStatus: 'en línea',

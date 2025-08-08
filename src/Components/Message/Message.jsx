@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useContext } from 'react'
 import { ContactContext } from '../../Context/ContactContext'
+import './Message.css'
 const Message = ({emisor, hora, id, texto, status}) => {
 	const {deleteMessageById} = useContext(ContactContext)
 
@@ -12,8 +13,13 @@ const Message = ({emisor, hora, id, texto, status}) => {
 	}
 	return (
 		<div onContextMenu={handleChangeMessageSelected}>
-			<p>{texto}</p>
-			<span>{hora}</span>
+			<div className='message'>
+			<p>{texto}
+				<span>{hora}</span>
+			</p>
+			{/* <span>{hora}</span> */}
+			{/* <i class="bi bi-check2-all"></i>  */}
+			</div>
 			{
 				message_selected && <button onClick={() => {deleteMessageById(id)}}>Eliminar</button>
 			}

@@ -10,19 +10,18 @@ const ContactScreen = () => {
     const valor = useContext(ContactContext)
 	console.log('Este es el valor de mi contexto', valor)
     return (
-        
     <div class="app-container">
         <div class="left-panel">
-            {/*
-            <div className='chat-left-bar'>
+            
+            {/* <div className='chat-left-bar'>
                 <span href="#">
                     <i class="bi bi-people"></i>
                 </span>
                 <span href="#">
                     <i class="bi bi-gear"></i>
                 </span> 
-            </div> 
-            */}
+            </div>  */}
+            
         <div class="contact-list-container">
             
             <div class="contact-list-header">

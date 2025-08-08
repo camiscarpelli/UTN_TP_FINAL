@@ -1,6 +1,9 @@
-import React, { useContext } from 'react'
-import './NewMessageForm.css'
-import { ContactContext } from '../../Context/ContactContext'
+import React, { useContext } from 'react';
+import './NewMessageForm.css';
+import { ContactContext } from '../../Context/ContactContext';
+
+
+
 
 const NewMessageForm = () => {
 
@@ -14,10 +17,11 @@ const NewMessageForm = () => {
 
         event.target.message.value = ''
     }
-    
+
 
     return (
         <form onSubmit={handleSubmitSendMessageForm}>
+
             <div className='message-screen'>
 
                 <div className='message-attachment-button'>
