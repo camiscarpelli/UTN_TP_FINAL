@@ -109,14 +109,19 @@
     }
 } */
 
+@media screen and (max-width: 850px) {
+    .message-input-container{
+    width: 40vw;
+    }
+}
 @media screen and (max-width: 800px) {
     .message-input-container{
-        width: 100vw;
+    width: 40vw;
     }
 }
 @media screen and (max-width: 680px) {
     .message-input-container{
-        width: 100vw;
+        width: 40vw;
     }
 }
 @media screen and (max-width: 500px) {
@@ -126,7 +131,7 @@
 }
 @media screen and (max-width: 400px) {
     .message-input-container{
-        width: 100vw;
+        width: 50vw;
     }
     .message-input-container input{
         font-size: 12px;
